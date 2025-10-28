@@ -1,0 +1,26 @@
+import { TarotCardType } from './types';
+
+export const TAROT_DECK: TarotCardType[] = [
+  { id: 0, name: 'முட்டாள்', description: 'ஆரம்பம், அப்பாவித்தனம், தன்னிச்சை, ஒரு சுதந்திர ஆவி.', image: 'https://loremflickr.com/400/600/dionysus,statue' },
+  { id: 1, name: 'மந்திரவாதி', description: 'வெளிப்பாடு, வளம், சக்தி, ஊக்கமளிக்கும் செயல்.', image: 'https://loremflickr.com/400/600/hermes,statue' },
+  { id: 2, name: 'உயர் பூசாரி', description: 'உள்ளுணர்வு, புனித அறிவு, தெய்வீக பெண்மை, ஆழ்மனம்.', image: 'https://loremflickr.com/400/600/persephone,mythology' },
+  { id: 3, name: 'பேரரசி', description: 'பெண்மை, அழகு, இயற்கை, வளர்ப்பு, செழிப்பு.', image: 'https://loremflickr.com/400/600/demeter,goddess' },
+  { id: 4, name: 'பேரரசர்', description: 'அதிகாரம், ஸ்தாபனம், கட்டமைப்பு, ஒரு தந்தை உருவம்.', image: 'https://loremflickr.com/400/600/zeus,statue' },
+  { id: 5, name: 'மதகுரு', description: 'ஆன்மீக ஞானம், மத நம்பிக்கைகள், இணக்கம், பாரம்பரியம், நிறுவனங்கள்.', image: 'https://loremflickr.com/400/600/apollo,wisdom' },
+  { id: 6, name: 'காதலர்கள்', description: 'அன்பு, நல்லிணக்கம், உறவுகள், மதிப்புகளின் சீரமைப்பு, தேர்வுகள்.', image: 'https://loremflickr.com/400/600/eros,aphrodite' },
+  { id: 7, name: 'தேர்', description: 'கட்டுப்பாடு, மன உறுதி, வெற்றி, செயல், உறுதி.', image: 'https://loremflickr.com/400/600/ares,chariot' },
+  { id: 8, name: 'வலிமை', description: 'தைரியம், சமாதானம், இரக்கம், கவனம், உள் வலிமை.', image: 'https://loremflickr.com/400/600/hercules,statue' },
+  { id: 9, name: 'துறவி', description: 'ஆன்ம தேடல், உள்நோக்கம், தனியாக இருப்பது, உள் வழிகாட்டுதல்.', image: 'https://loremflickr.com/400/600/hades,underworld' },
+  { id: 10, name: 'அதிர்ஷ்ட சக்கரம்', description: 'நல்ல அதிர்ஷ்டம், கர்மா, வாழ்க்கை சுழற்சிகள், விதி, ஒரு திருப்புமுனை.', image: 'https://loremflickr.com/400/600/tyche,goddess' },
+  { id: 11, name: 'நீதி', description: 'நீதி, நேர்மை, உண்மை, காரணம் மற்றும் விளைவு, சட்டம்.', image: 'https://loremflickr.com/400/600/themis,justice' },
+  { id: 12, name: 'தூக்கிலிடப்பட்ட மனிதன்', description: 'இடைநிறுத்தம், சரணடைதல், விட்டுவிடுதல், புதிய கண்ணோட்டங்கள்.', image: 'https://loremflickr.com/400/600/prometheus,mythology' },
+  { id: 13, name: 'மரணம', description: 'முடிவுகள், மாற்றம், உருமாற்றம், மாற்றம்.', image: 'https://loremflickr.com/400/600/thanatos,mythology' },
+  { id: 14, name: 'நிதானம்', description: 'சமநிலை, நிதானம், பொறுமை, நோக்கம்.', image: 'https://loremflickr.com/400/600/iris,goddess,rainbow' },
+  { id: 15, name: 'பிசாசு', description: 'நிழல் சுயம், இணைப்பு, அடிமைத்தனம், கட்டுப்பாடு, பாலியல்.', image: 'https://loremflickr.com/400/600/pan,god,mythology' },
+  { id: 16, name: 'கோபுரம்', description: 'திடீர் மாற்றம், எழுச்சி, குழப்பம், வெளிப்பாடு, விழிப்பு.', image: 'https://loremflickr.com/400/600/zeus,lightning' },
+  { id: 17, name: 'நட்சத்திரம்', description: 'நம்பிக்கை, நம்பிக்கை, நோக்கம், புதுப்பித்தல், ஆன்மீகம்.', image: 'https://loremflickr.com/400/600/astraea,goddess,stars' },
+  { id: 18, name: 'சந்திரன்', description: 'மாயை, பயம், பதட்டம், ஆழ்மனம், உள்ளுணர்வு.', image: 'https://loremflickr.com/400/600/selene,goddess,moon' },
+  { id: 19, name: 'சூரியன்', description: 'நேர்மறை, வேடிக்கை, அரவணைப்பு, வெற்றி, உயிர்.', image: 'https://loremflickr.com/400/600/apollo,god,sun' },
+  { id: 20, name: 'தீர்ப்பு', description: 'தீர்ப்பு, மறுபிறப்பு, உள் அழைப்பு, விடுதலை.', image: 'https://loremflickr.com/400/600/hermes,judgement' },
+  { id: 21, name: 'உலகம்', description: 'நிறைவு, ஒருங்கிணைப்பு, சாதனை, பயணம்.', image: 'https://loremflickr.com/400/600/gaia,goddess,earth' },
+];
